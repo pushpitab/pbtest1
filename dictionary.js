@@ -1,1 +1,0 @@
-var dictionary = {"english":"five","hindi":"पांच","spanish":"cinco"}
