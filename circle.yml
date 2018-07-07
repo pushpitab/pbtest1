@@ -8,3 +8,5 @@ jobs:
       - checkout
       - run: npm install
       - run: node index.js
+    store_artifacts:
+        path: dictionary.js
