@@ -1,6 +1,7 @@
 var five = require('five');
 
 function generateDict(place) {
+  console.log("generating dictonary")
   if (place === 'earth') {
     return {
       english: five.english(),
