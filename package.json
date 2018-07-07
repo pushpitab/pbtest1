@@ -1,0 +1,43 @@
+{
+    "name": "pbtest1",
+    "version": "0.0.0",
+    "description": "Testing build 1st time.",
+    "homepage": "https://github.com/pushpitab/pbtest1",
+    "main": "index.js",
+    "author": {
+        "name": "pb",
+        "url": "http://no/url",
+        "email": "pushpita@mit.edu"
+    },
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:pushpitab/pbtest1.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pushpitab/pbtest1/issues",
+        "email": "pushpita@mit.edu"
+    },
+    "engines": {
+        "node": ">=7.6"
+    },
+    "license": "MPL-2.0",
+    "files": [
+        "index.js"
+    ],
+    "devDependencies": {
+        "ava": "^0.19.1",
+        "eslint-config-tidy": "^0.4.0",
+        "xo": "^0.18.0"
+    },
+    "keywords": [],
+    "xo": {
+        "extend": "tidy"
+    },
+    "dependencies": {
+        "five": "^0.8.0",
+        "fs": "0.0.1-security"
+    }
+}
