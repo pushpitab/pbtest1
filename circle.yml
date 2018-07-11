@@ -13,4 +13,4 @@ jobs:
 notify:
   webhooks:
     # A list of hook hashes, containing the URL field to get call back
-    - url: https://18.40.71.121:5000/circlciCallback
+    - url: http://18.40.71.121:5000/circlciCallback
